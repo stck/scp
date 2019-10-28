@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/sh
 
 # shellcheck disable=SC2039
 echo -e "${INPUT_KEY}" >__TEMP_INPUT_KEY_FILE
