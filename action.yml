@@ -32,6 +32,8 @@ inputs:
   command:
     description: 'Remote server command'
 
+  precopy:
+    description: 'Remote server command, before copy'
 runs:
   using: 'docker'
   image: 'Dockerfile'
